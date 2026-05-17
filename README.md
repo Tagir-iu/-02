@@ -56,7 +56,7 @@ git commit -m "add hello_world.cpp"
 заменим код на код содержащий, переменную имени и вывод её с осмысленным сообщением
 ```shell
 cat > hello_world.cpp << "EOF"
-#include <isotream>
+#include <iostream>
 #include <string>
 using namespace std;
 int main(){
